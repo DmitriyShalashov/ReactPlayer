@@ -1,0 +1,87 @@
+.myPlayer{
+    position: absolute;
+    height: 120px;
+    width: 100%;
+    bottom:0;
+    background: #000;
+    color:white;
+
+}
+.myPlayerNav{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.myPlayerBtn{
+    color:white;
+    border-radius: 20px;
+    width: 70px;
+     height: 70px;
+    font-size: 40px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.myPlayerBtn.play{
+    background: url(https://sun9-56.userapi.com/impg/r-Jrv5jpU5Yf87MkOBBhAnODwflIMiXhNOJ9vQ/WtVPV6gkdYg.jpg?size=70x70&quality=95&sign=1567dc35bf3b8292d13ce0023e04eb0d&type=album);
+    background-size: cover;
+}
+.myPlayerBtn.stop{
+    background: url(https://sun9-20.userapi.com/impg/A4YQOijIimOM4LVoNLlZvW8K7vPb1fEMaMoENA/S0SpLMS2U3o.jpg?size=70x70&quality=95&sign=11afe0147b60a634b364b1587925be06&type=album), no-repeat;
+    background-size: cover;
+}
+.myPlayerBtnPrev{
+    margin-top: 10px;
+    width: 40px;
+     height: 40px;
+     border-radius: 20px;
+    background: url(https://sun9-59.userapi.com/impg/WGFXWwGr4yTi2kjTUOZ52Whh-snL6kPGAaR-ig/1BYF3DXCj64.jpg?size=40x40&quality=95&sign=1f4a5855f0449193f9f05071b786bcee&type=album), no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.myPlayerBtnNext{
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    background: url(https://sun9-87.userapi.com/impg/REyzzmR0ozfGBNmdTMnAHewkuVtCm70Km_UKSg/yJI2rqK5Sls.jpg?size=40x40&quality=95&sign=c0f89bd69cfbc59a3a898aff8c468785&type=album), no-repeat;
+    background-size: cover;    
+}
+.myPlayerLine{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myLine{
+    margin-left:15px;
+    margin-right:15px;
+    width: 90%;
+    background-color: white;
+    height: 4px;
+}
+.myVolume{
+    position: absolute;
+    left:20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+}
+.myVolume>img{
+    width: 30px;
+    height: 30px;
+}
+.myVolume>input{
+    width: 100px;
+    height: 4px;
+    
+}
+.myPlayer input{
+    cursor: pointer;
+}

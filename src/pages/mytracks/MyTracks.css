@@ -1,0 +1,77 @@
+.track-list{
+    width: 1000px;
+    min-height: 700px;
+    background-color: rgba(24, 24, 24, 0.83);
+    border-radius: 14px;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: scroll;
+}
+.track-list h2{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    margin-left: 20px;
+}
+.track-list p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-left: 20px;
+}
+
+
+.track-list::-webkit-scrollbar{
+    width: 10px;
+    background-color: black;
+}
+.track-list::-webkit-scrollbar-thumb {
+    background-color: gray;
+    
+}
+.track-left, .track-right{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: lighter;
+    display: inline-flex;
+    align-items: center;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    margin-right: 5px;
+}
+.track-list-content{
+    margin-top: 100px;
+    left:0;
+}
+.track{display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    position: relative;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.407);
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.track:hover{
+    background-color: rgb(43, 43, 43);
+}
+.track strong{
+    color: white;
+    font-size: 18px;
+    
+}
+.track h3{
+    color: rgb(186, 186, 186);
+    font-size: 14px;
+}
+.track h4{
+    margin-left: 10px;
+    color: rgb(186, 186, 186);
+    font-size: 14px;
+}
