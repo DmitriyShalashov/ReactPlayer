@@ -9,6 +9,12 @@
     font-family: 'Noto Sans', sans-serif;
     display: block;
 }
+
+@media (max-width:1200px) {
+    .log-bar{
+        display: none;
+    }
+}
 .log-play{
     position: relative;
     color:white;

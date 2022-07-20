@@ -8,12 +8,12 @@ function Navigation() {
             <div className='nav-bar'>
                 <div className='nav-items'>
                     <ul>
-                        <Link to='/'><li>Плейлисты</li></Link>
-                        <Link to='/mytracks'><li>Мои треки</li></Link>
+                    <li><Link to='/'>Плейлисты</Link></li>
+                    <li><Link to='/mytracks'>Мои треки</Link></li>
                         <li>Популярные исполнители</li>
                         <li>Мои плейлисты</li>
                     </ul>
-                    <ul>
+                    <ul id="lk">
                         <li>Личный кабинет</li>
                         <li>О сервисе</li>
                     </ul>    

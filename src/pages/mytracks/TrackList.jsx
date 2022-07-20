@@ -1,6 +1,6 @@
 import React from 'react';
 import './MyTracks.css'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 
 
 
@@ -22,8 +22,10 @@ function TrackList({tracks=[],myTracks,create,remove,change,changeQueue}) {
     
     return ( 
         <div className='track-list'>
-            <h2>{params.name}</h2>
-            <p>{}</p>
+            <div className="track-list-title">
+                <h2>{params.name}</h2>
+                <Link to='/'> На главную</Link>
+            </div>
             <div className='track-list-content'>
                 {usingTracks.map((track,index)=>
                         

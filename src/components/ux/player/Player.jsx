@@ -94,13 +94,13 @@ function Player({track,changeTrackNext,changeTrackPrev}) {
                 <span className={classes.myPlayerBtnPrev} onClick={changeTrackPrev}></span>
                 <div className={playerBtn.join(' ')} onClick={togglePlayPause}>{playerIcon}</div>
                 <span className={classes.myPlayerBtnNext} onClick={changeTrackNext}></span>
-                <div className={classes.myVolume}>
+               
+            </div>
+            <div className={classes.myVolume}>
                     <img src='https://sun9-87.userapi.com/impg/YvXbbLVj9vxpzypqtBgtkabF-S6WBoeD4Z0mkA/Kd8_3MoeCpk.jpg?size=58x62&quality=95&sign=aa4d9cbb2a2eea571b97d65df310ce50&type=album'/>
                     <input type = 'range' ref={volumeBar} onChange={changeVolumeSong}/>
                     
                 </div>
-            </div>
-
 
             <div className={classes.myPlayerLine}>
             <strong>{getSecondsMinutes(currentTime)[0]+':'+getSecondsMinutes(currentTime)[1]}</strong>

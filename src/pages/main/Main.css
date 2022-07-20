@@ -3,8 +3,15 @@
     height: 100%;
     display: flex;
     justify-content: space-between;
-    
     background-image: url(https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80);
     background-size: cover;
+    overflow-x: hidden;
+}
+@media (max-width:1200px) {
+    .full-screen{
+    display: flex;
+    justify-content: center;
+    background-repeat: repeat;
     
+    }
 }
