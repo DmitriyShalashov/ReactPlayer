@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ReactPlayer/static/css/main.3b968455.css",
+    "main.js": "/ReactPlayer/static/js/main.5c20a567.js",
+    "static/media/Sting - Englishman In New York.mp3": "/ReactPlayer/static/media/Sting - Englishman In New York.7bba9d0da933e39e1320.mp3",
+    "static/media/Pentakill - Mortal Reminder.mp3": "/ReactPlayer/static/media/Pentakill - Mortal Reminder.4a386647403afd27f048.mp3",
+    "static/media/Блестящие - Восточная сказка.mp3": "/ReactPlayer/static/media/Блестящие - Восточная сказка.028434483ad1a220adcb.mp3",
+    "static/media/K DA, Wolftyla, Bekuh BOOM feat. Aluna, League of Legends - DRUM GO DUM.mp3": "/ReactPlayer/static/media/K DA, Wolftyla, Bekuh BOOM feat. Aluna, League of Legends - DRUM GO DUM.5ad2939ef4fc69f5581f.mp3",
+    "static/media/LMFAO - Sexy And I Know It.mp3": "/ReactPlayer/static/media/LMFAO - Sexy And I Know It.e3b4dc2a1acd7d773a47.mp3",
+    "static/media/Flo Rida, T-Pain - Low (Tik Tok Remix 2021) (Muzes.net).mp3": "/ReactPlayer/static/media/Flo Rida, T-Pain - Low (Tik Tok Remix 2021) (Muzes.net).5ac9517e2f55b988c18c.mp3",
+    "static/media/Divinity - Original Sin 2 - Main Theme (Piano cover).mp3": "/ReactPlayer/static/media/Divinity - Original Sin 2 - Main Theme (Piano cover).d3ce36808057a062f243.mp3",
+    "index.html": "/ReactPlayer/index.html",
+    "main.3b968455.css.map": "/ReactPlayer/static/css/main.3b968455.css.map",
+    "main.5c20a567.js.map": "/ReactPlayer/static/js/main.5c20a567.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b968455.css",
+    "static/js/main.5c20a567.js"
+  ]
+}
