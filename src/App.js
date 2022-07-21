@@ -68,8 +68,8 @@ const changeTrackPrev=()=>{
       
         <Routes>
           <Route exact path='/' element={<AlbumGrid albums={albums}/>}></Route>
-          <Route exact path='mytracks' element={<MyTrackList myTracks={myTracks}  remove={deleteMyTrack} change={changeTrack} changeQueue={changeQueue}/>}></Route>
-          <Route exact path='album/:name' element={<TrackList myTracks={myTracks} tracks={tracks} remove={deleteMyTrack} create={createMyTrack} change={changeTrack} changeQueue={changeQueue}/>}></Route>
+          <Route exact path='mytracks' element={<MyTrackList myTracks={myTracks}  remove={deleteMyTrack} change={changeTrack} changeQueue={changeQueue} trackNow={trackNow}/>}></Route>
+          <Route exact path='album/:name' element={<TrackList myTracks={myTracks} tracks={tracks} remove={deleteMyTrack} create={createMyTrack} change={changeTrack} trackNow={trackNow}/>}></Route>
         </Routes>
      
       </Main>

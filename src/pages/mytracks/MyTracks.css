@@ -1,11 +1,10 @@
 .track-list{
     width: 1000px;
-    min-height: 700px;
     background-color: rgba(24, 24, 24, 0.83);
     border-radius: 14px;
     padding: 10px;
     box-sizing: border-box;
-    overflow: scroll;
+    overflow: auto;
 }
 .track-list h2{
     font-family: 'Noto Sans', sans-serif;
@@ -33,19 +32,17 @@
 }
 
 
-.track-list::-webkit-scrollbar{
-    width: 10px;
-    background-color: black;
-}
-.track-list::-webkit-scrollbar-thumb {
-    background-color: gray;
-    
-}
+
+
 .track-left, .track-right{
     font-family: 'Noto Sans', sans-serif;
     font-weight: lighter;
     display: inline-flex;
     align-items: center;
+    z-index: 2;
+}
+.track-left{
+    width: 900px;
 }
 
 .icon{
@@ -57,8 +54,21 @@
 .track-list-content{
     margin-top: 100px;
     left:0;
+    height: 430px;
+    overflow-y: auto;
 }
-.track{display: flex;
+.track-list-content::-webkit-scrollbar{
+    width: 10px;
+}
+.track-list-content::-webkit-scrollbar-track {
+    background: black;        
+  }
+.track-list-content::-webkit-scrollbar-thumb {
+    background-color: gray;    
+    border-radius: 20px;      
+  }
+.track{
+    display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 5px;
@@ -68,14 +78,15 @@
     padding: 10px;
     border-radius: 15px;
     cursor: pointer;
+    transition: .3s ease;
 }
+
 .track:hover{
     background-color: rgb(43, 43, 43);
 }
 .track strong{
     color: white;
     font-size: 18px;
-    
 }
 .track h3{
     color: rgb(186, 186, 186);
@@ -86,12 +97,23 @@
     color: rgb(186, 186, 186);
     font-size: 14px;
 }
+.track.active{
+    background-color:rgb(15, 146, 202);
+}
 @media (max-width:1200px) {
+    .track-list-content{
+        height: 350px;
+        overflow-y: auto;
+    }
     .track-list-title{
        margin-top: 100px;
     }
 }
 @media (max-width:450px) {
+    .track-list-content{
+        height: 320px;
+        overflow-y: auto;
+    }
     .track strong{
         font-size: 14px;
     }

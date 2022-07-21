@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Link } from 'react-router-dom';
+import {  Link } from 'react-router-dom';
 import './Nav.css'
 
 function Navigation() {
@@ -8,8 +8,8 @@ function Navigation() {
             <div className='nav-bar'>
                 <div className='nav-items'>
                     <ul>
-                    <li><Link to='/'>Плейлисты</Link></li>
-                    <li><Link to='/mytracks'>Мои треки</Link></li>
+                    <Link to='/'><li>Плейлисты</li></Link>
+                    <Link to='/mytracks'><li>Мои треки</li></Link>
                         <li>Популярные исполнители</li>
                         <li>Мои плейлисты</li>
                     </ul>
