@@ -1,4 +1,5 @@
 import React, { useMemo, useState } from 'react';
+import { Link } from 'react-router-dom';
 import './MyTracks.css'
 
 function MyTrackList({myTracks, remove,change,trackNow}) {
@@ -7,8 +8,11 @@ function MyTrackList({myTracks, remove,change,trackNow}) {
     
     return ( 
         <div className='track-list'>
+            <div className="track-list-title">
             <h2>{title}</h2>
-            
+                <Link to='/'> На главную</Link>
+            </div>
+           
             <div className='track-list-content'>
                 {myTracks.map((track)=>
                     <div className={track===trackNow ?'track active':'track'} key={track.name} onClick={()=>change(track,myTracks) }>

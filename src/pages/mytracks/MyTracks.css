@@ -102,7 +102,7 @@
 }
 @media (max-width:1200px) {
     .track-list-content{
-        height: 350px;
+        height: 250px;
         overflow-y: auto;
     }
     .track-list-title{
@@ -111,8 +111,11 @@
 }
 @media (max-width:450px) {
     .track-list-content{
-        height: 320px;
+        height: 250px;
         overflow-y: auto;
+    }
+    .track-list-title a{
+        display: none;
     }
     .track strong{
         font-size: 14px;
