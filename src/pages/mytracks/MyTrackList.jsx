@@ -6,6 +6,10 @@ function MyTrackList({myTracks, remove,change,trackNow}) {
     const title='Мои треки'
     const desc='Слушайте топовую музыку без рекламы'
     
+    const removeTrack =(e, track)=>{
+        remove(track)
+    }
+
     return ( 
         <div className='track-list'>
             <div className="track-list-title">
@@ -21,8 +25,8 @@ function MyTrackList({myTracks, remove,change,trackNow}) {
                         <div><strong>{track.name}</strong>
                         <h3>{track.singer}</h3></div>
                         </div>
-                        <div className='track-right'>
-                        <input type='checkbox' checked onChange={()=>remove(track)}/>
+                        <div className='track-right' onClick={(e)=>e.stopPropagation()}>
+                        <input type='checkbox' checked onChange={(e)=>removeTrack(e, track)}/>
                         <h4>{track.length}</h4>
                         </div>
                     </div>
