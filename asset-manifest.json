@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ReactPlayer/static/css/main.a0ae5f12.css",
-    "main.js": "/ReactPlayer/static/js/main.efd3ffed.js",
+    "main.css": "/ReactPlayer/static/css/main.682d2550.css",
+    "main.js": "/ReactPlayer/static/js/main.ec388369.js",
     "static/media/Sting - Englishman In New York.mp3": "/ReactPlayer/static/media/Sting - Englishman In New York.7bba9d0da933e39e1320.mp3",
     "static/media/Pentakill - Mortal Reminder.mp3": "/ReactPlayer/static/media/Pentakill - Mortal Reminder.4a386647403afd27f048.mp3",
     "static/media/Queen - Another One Bites The Dust.mp3": "/ReactPlayer/static/media/Queen - Another One Bites The Dust.0d1bcc3383b4631e590e.mp3",
@@ -13,11 +13,11 @@
     "static/media/Flo Rida, T-Pain - Low (Tik Tok Remix 2021) (Muzes.net).mp3": "/ReactPlayer/static/media/Flo Rida, T-Pain - Low (Tik Tok Remix 2021) (Muzes.net).5ac9517e2f55b988c18c.mp3",
     "static/media/Divinity - Original Sin 2 - Main Theme (Piano cover).mp3": "/ReactPlayer/static/media/Divinity - Original Sin 2 - Main Theme (Piano cover).d3ce36808057a062f243.mp3",
     "index.html": "/ReactPlayer/index.html",
-    "main.a0ae5f12.css.map": "/ReactPlayer/static/css/main.a0ae5f12.css.map",
-    "main.efd3ffed.js.map": "/ReactPlayer/static/js/main.efd3ffed.js.map"
+    "main.682d2550.css.map": "/ReactPlayer/static/css/main.682d2550.css.map",
+    "main.ec388369.js.map": "/ReactPlayer/static/js/main.ec388369.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0ae5f12.css",
-    "static/js/main.efd3ffed.js"
+    "static/css/main.682d2550.css",
+    "static/js/main.ec388369.js"
   ]
 }
